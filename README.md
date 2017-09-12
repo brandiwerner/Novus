@@ -2,8 +2,6 @@
 Discovery Park Event App, CSCE 4444
 
 Project Directory Structure includes
-  
-  /Novus
 	
 /Deliverables
 		
