@@ -15,3 +15,11 @@ App format
 UI plan
 Data handling
 Deliverable 1 progress
+
+Timeline of events - we discussed our deadlines, and milestones. We built a schedule to go off of, and Daniel will create a gantt chart based off it it.
+
+Discuss risk management - at our last meeting we each decided to brainstorm 3 risk management scenarios for this meeting, and we would keep the best 5. We compared all 5 of our risks and decided to stick with: non-compatibility, scope ill defined, bad communication, losing a member, lack of experience with android/django.
+
+Discuss projoct scope - we decided a brief project scope and have adopted a two part application, with a web app and an android app. The format will be decided at a later time, when we have more of a handle of our programming abilities. For data handling, our web app will organize a database for us, that the android app will pull. 
+
+Deliverable 1 - we touched bases to ensure that the deliverable and its aspects are on track. At this point the deliverable is nearly finished as we have all split the parts of the deliverable. What is left is compiling the information and fine tuning. 
