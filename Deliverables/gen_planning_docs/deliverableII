@@ -12,8 +12,7 @@ Then we will check if there's new events on the mobile side to check if the init
 Then we'll create another account and submit another event there, and check if the accounts are updated and are not the same as the first one
 
 Part 4 Updated risk management
-(note: below are not updated, will need to be updated, especially 4th and 5th)
-Lack of experience with android/Django
+Lack of experience with Android/Django
 The way we will monitor our lack of experience is through setting goals on the different sections of applications we are working on. If we reach these goals in a timely manner then we will know that our lack of experience is not affecting our ability to work on our project. If we miss our deadline for one of our goals, then we know we will need to work harder to overcome our lack of experience.
 As the semester progresses, we will evaluate our progress on the project to see if our lack of experience is affecting us in a negative way. Once we have done this we will look at what is left to accomplish with the project and determine if we are unexperienced in the parts of the project we still need to do.
 We will allocate slack days and/or utilize group meetings as extreme catch up days. We will also each individually research the item we do not know how to do before we need to program those parts of the code.
@@ -21,19 +20,19 @@ We will allocate slack days and/or utilize group meetings as extreme catch up da
 Losing a member
 We will be checking on who have attended to classes. If someone has been consistently being absent then we will know to split the project into bigger chunks.
 As the semester progresses, we will check who has or hasn’t been attending. Then we can see how much work in the semester we still need to do and adjust accordingly.
-other members will have to work more to catch up with the schedule.
+Other members will have to work more to catch up with the schedule.
 
-Bad Communication
+Bad communication
 We will find out if a bad communication has occurred after the task is finished or when we meet, if there’s any misunderstanding then we will know to explain things better.
 If the bad communication had greatly impacted the progress, then we’ll speed up and get it right the next time to make up for the lost time.
-specify and explain the task more clearly in a more understandable way.
+We would specify and explain the task more clearly in a more understandable way.
 
-Scope is ill defined
-We will stay in constant communication with each other about what we are working on so all of us are on the same track about what we are doing.
-If we still are having problem with our task and understanding what our project is and our different contributions, then we will devote a whole meeting to this task.  
-We will work on the project all at one time instead of individually that way each of us is available to answer questions another might have.
+Conflicting code
+We will check if there are redundant or conflicting code that does not really contribute to the program itself.
+If there are redundant or conflicting codes, we should comment it out and then run the program again to see if program still works, and only delete after knowing that program works without the redundant or conflicting code.
+We can talk to each other to know which cunk of code does what so there won't be much more redundant or conflicting code to be made.
 
-Non-compatibility
-Firstly, we are going to research how and whether we can connect Django to android studio. Secondly, for users who do not have an adroid app we’ll check on how many times that someone tries to use the app but couldn’t because of the non-compatibility.
-We will research and ask our friends who have experience with Django and Android Studios to see if they can help us figure out how we can solve our problem. If the non-compatibility has become a big issue to the users who do not have an android, then we might raise our priority on making it accessible to more platforms
-For the first compatibility problem, we will create our webpage by hand and connect it to a database system such as MySQL since we know android studio is compatible with that. Secondly, we will make a port that is accessible with more platforms.
+Planning problems
+We can check if there are any loopholes or exploits on our project plans and if any, we can patch it up.
+If there are any loopholes, exploits, or unforseen problems on the plans, we can adjust the plan to get rid of the problems or we can start a new plan together using the old plan as guideline.
+We will check the plan more throughly so there will be less of a risk of unexpected problems.
