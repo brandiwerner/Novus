@@ -1,3 +1,10 @@
-Talk about interface for the android app
--what features (buttons)
--how many linked pages (homepage -> search page -> result page -> event page)
+Kaytlin:
+  Talk about interface for the android app
+  -what features (buttons)
+  -how many linked pages (homepage -> search page -> result page -> event page)
+Brandi:
+  Homepage: Scrolling Events or Calendar
+  -If calendar how do we want to make it where the user can see the events
+      -We can have where they click on it and that part of the calendar expands
+      -Or only display a week at a time? (Vertically and they can scroll down)
+  -Entry page that initially ask what they want to do: Look at calendar or search by tag
