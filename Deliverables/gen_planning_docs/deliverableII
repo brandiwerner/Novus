@@ -2,9 +2,13 @@ Deliverable II
 
 Part 1
 4.1 User Interfaces
+The PC app will have a log in/log out button as well as interfaces to post the event, to view the events you've posted, and to edit/delete the events. The Android app will have a menu on the bottom of every page showing home, search by tag, search by organization, and calendar buttons. Home button sends the user back to home page, search by tag lets the user choose which tag to include on the event search results, search by organization lets users to look up events by organization, and calendar shows a calendar that lets people search events by date.
 4.2 Hardware Interfaces
+This app supports both Android and PC, the PC app will allow creation of accounts and submitting events, Android app will receive and show events that were entered by the PC app.
 4.3 Software interfaces
+The PC version of the app will be using any OS that can run the web browser, it identifys the user accounts and the event that is being posted, so people will know which account will be posting the new event. Event will be monitored by the admins and only the verified events will be sent to Android app. The Android app will require android to function, it has the purpose of showing the events on the app, as well as its menus and the event details and it will receive verified events from the PC app.
 4.4 Communication interfaces
+This app will use the communication functions of a web browser, and we wil use HTTP for this app on the PC side. 
 
 Part 3 Test plan
 Test account creation, and then creating events on the PC
