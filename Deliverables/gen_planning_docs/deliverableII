@@ -35,7 +35,7 @@ Conflicting code
 We will check if there are redundant or conflicting code that does not really contribute to the program itself.
 If there are redundant or conflicting codes, we should comment it out and then run the program again to see if program still works, and only delete after knowing that program works without the redundant or conflicting code.
 We can talk to each other to know which cunk of code does what so there won't be much more redundant or conflicting code to be made.
-
+ 
 Planning problems
 We can check if there are any loopholes or exploits on our project plans and if any, we can patch it up.
 If there are any loopholes, exploits, or unforseen problems on the plans, we can adjust the plan to get rid of the problems or we can start a new plan together using the old plan as guideline.
