@@ -93,6 +93,64 @@ for this section, include the same schedule as before as we are still on schedul
 
 The development schedule for DiscoEvents has been on track so far. We saw no need to make any modifications from the schedule we had used on deliverable 1. Assuming any issue arises, changes to the schedule are still viable. 
 
+Part 6
+
+9/21/17
+Location: class
+
+Present: 
+Brandi Werner
+Kaytlin Lafleur
+Daniel Jimenez
+Tsung-Han Hsieh
+
+Agenda: 
+Elicitation W.S.
+Requirement analysis
+Deliverable 2 tasks
+Progress on deliverable 3
+
+Elicitation W.S. - we received extremely helpful insight into our application from our elicitors. They outlined certain aspects of this calendar they believed to be important based on their role as either a common engineering student or an organization leader. They stressed the importance of
+> App notifications
+> Individual tags for search
+> Inclusion of an RSVP form on the web app
+
+We received a lot of other information that has the possibility of being included in our project, however it may not meet the scope we are aiming for. Some of these are user profiles, event reminders, and more social media-like aspects. While we did like some of these ideas, it is not under the type of application we had planned to make.
+
+Requirement analysis - After reviewing the elicitators information, we did a quick brainstorm of the minimum baseline requirements we would like to work towards in our app such as
+
+Deliverable 2 tasks - We reviewed the requirements for deliverable 2 and have split them accordingly. Within the first section (which we anticipate to be the largest based on the template given in class), we split that task into subtasks among us as well. Although early, we did this to have a general idea of our roles and in case anybody had the chance to work ahead. 
+
+Progress on deliverable 3 - as a quick touch-and-go conversation, we made sure everybody was researching into their respective part for the creation of the actual application.
+
+
+9/26/17
+Location: class
+
+Present: 
+Brandi Werner
+Kaytlin Lafleur
+Daniel Jimenez
+Tsung-Han Hsieh
+
+Agenda: 
+Increased Github use
+Django team
+Layout of app
+Deliverable 2 planning/progress
+Review timeline
+
+increased Github Use- we would like to shift our focus away from google docs use and focus on github in order to become accustomed once we move to Github for the coding portion of the project
+
+Django Team - touched base with the django team to determine progress on learning. Progress is currently not very advanced, however there is still time to learn.
+
+Layout of app - as a group, we designed and drew out how our android application will look. It will have 3 pages - a calendar page, an organizations page, and a search page. There will be a static menu bar at the bottom. A home icon will also be included, which will lead to a page showing all events going on today. Layout od django app is not of critical importance.
+
+Deliverable 2 planning/progress - We reiterated our roles and responsibilities for this second deliverable. Everything was in line, and writing for the deliverable will commence after class as decided by group.
+
+Review timeline - while taking a close look at the timeline, we have determined that as of so far we are on track. However, we may make slight modifications and expansions to the schedule in order to further guide us in completing the project. 
+
+
 Part 7 Progress report summarizing the status of your project
 The progress of our project is going well. The reason we say this is because we are right on track with the timeline we made on deliverable 1. Just last week we finish researching and studying both android and Django requirements. This upcoming and the following week will get the base and core functionality of our software programed. 
 All our team members have a good grasp on what they need to be working on and the pace they need to get their task done. We have accomplished this through good communication and having meetings twice a week. The Android programmers are working closely together and have broken their task up between themselves. One of the Android developers will be working on the calendar view while the other will focus on the searching aspect of the program including tags. The Django programmers will be working together on all aspects of the web application front. After the next two weeks we will be able to start linking the two development platforms together through SQLlite and start user testing.
