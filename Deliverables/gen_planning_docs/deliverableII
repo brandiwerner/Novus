@@ -43,9 +43,6 @@ Within the application itself, we will have a help section. The help section wil
 2.7Assumptions and Dependencies
 <List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).>
 
-
-
-
 4.1 User Interfaces
 The PC app will have a log in/log out button as well as interfaces to post the event, to view the events you've posted, and to edit/delete the events. The Android app will have a menu on the bottom of every page showing home, search by tag, search by organization, and calendar buttons. Home button sends the user back to home page, search by tag lets the user choose which tag to include on the event search results, search by organization lets users to look up events by organization, and calendar shows a calendar that lets people search events by date.
 4.2 Hardware Interfaces
@@ -54,6 +51,11 @@ This app supports both Android and PC, the PC app will allow creation of account
 The PC version of the app will be using any OS that can run the web browser, it identifys the user accounts and the event that is being posted, so people will know which account will be posting the new event. Event will be monitored by the admins and only the verified events will be sent to Android app. The Android app will require android to function, it has the purpose of showing the events on the app, as well as its menus and the event details and it will receive verified events from the PC app.
 4.4 Communication interfaces
 This app will use the communication functions of a web browser, and we wil use HTTP for this app on the PC side. 
+
+Part 2 UML Documents
+Class Diagram
+Sequence Diagram
+Use Case Diagram (at least on normal case and one error case)
 
 Part 3 Test plan
 Test account creation, and then creating events on the PC
@@ -90,3 +92,9 @@ Part 5: updated project plan
 for this section, include the same schedule as before as we are still on schedule and aim to continue to use this schedule. The section below can be included
 
 The development schedule for DiscoEvents has been on track so far. We saw no need to make any modifications from the schedule we had used on deliverable 1. Assuming any issue arises, changes to the schedule are still viable. 
+
+Part 7 Progress report summarizing the status of your project
+The progress of our project is going well. The reason we say this is because we are right on track with the timeline we made on deliverable 1. Just last week we finish researching and studying both android and Django requirements. This upcoming and the following week will get the base and core functionality of our software programed. 
+All our team members have a good grasp on what they need to be working on and the pace they need to get their task done. We have accomplished this through good communication and having meetings twice a week. The Android programmers are working closely together and have broken their task up between themselves. One of the Android developers will be working on the calendar view while the other will focus on the searching aspect of the program including tags. The Django programmers will be working together on all aspects of the web application front. After the next two weeks we will be able to start linking the two development platforms together through SQLlite and start user testing.
+At this point in time we are all feeling comfortable with the pace we have given ourselves and feel that we will be able to accomplish this program in a reasonable amount of time. The only struggle that we might have in the future is if one of our development tools has a limitation that our developers cannot overcome or solve. If this happens we have already discussed about different alternatives of what to do and how to solve these problems. One of the last resorts is to change development tools.
+
