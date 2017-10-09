@@ -1,6 +1,51 @@
 Deliverable II
 
 Part 1
+
+2.Overall Description
+2.1Product Perspective
+<Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.>
+
+Disco events is aimed to be a more accessible and easier to navigate version of OrgSync. DiscoEvents is an event tracking app specificallly for UNT engineering students at discovery park. We, Team Novus, saw a need that required to be fulfilled for all students. Discovery Park is a large, and diverse campus filled with opportunities for students. There are often multiple events a day at Discovery park. Some may be run by departments, other by organizations. DiscoEvent is meant to be the mobile solution to being involved at Discovery Park by serving as a hub to display all the events going on on any given day at Discovery Park. DiscoEvents is not affiliated with OrgSync and neither will it hold all of its features. 
+2.2Product Features
+<Summarize the major features the product contains or the significant functions that it performs or lets the user perform. Details will be provided in Section 3, so only a high level summary  is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or a class diagram, is often effective.>
+
+DiscoEvents major features are:
+an interactive calendar, 
+an organizations page,
+and a search bar. 
+
+The interactive calendar is a swipeable and clickable calendar. Based on the given day the user clicks on, a pop up will be created that will display all of the events going on on that day along with some basic information about the events. 
+The organizations page is a scrollable page displaying all of the discovery park organizations registered through DiscoEvents. Upon selecting an organization, the user will be taken to a page for the organization. The page will display a photo for the group, basic group information, as well as future events for the group. 
+The search bar searches all of the future events in discovery park and returns the event information to the user. The search function will work in two ways. The first is a basic search, matching with anything that is searched. The other is a search by tags, in which users will be able to select the tags that have been used to descrbe the future events, and results will be given based on the tags. 
+
+2.3User Classes and Characteristics
+<Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the favored user classes from those who are less important to satisfy.>
+
+Student user class: This group will encompass the average Discovery Park student. Their use of the app will be to gain information of the events going on, as well as familiarize themselves with the application. The anticipated use for this user class is 2-4 uses of the app per week with a max of 1 minute per use. This user class will be our main class, and our app will be built primarily for this audience.
+
+Organization user class: Depertments and organizations may submit their events to DiscoEvents so their events will be available for students to see. Their use will be to spread awareness of their events and gain attendance for their respective events. The anticipated use for this user class is 1 use a week with a max of 5 minute oer useage to submit an event. This is not our main user class, however their onvolvement is crucial to filling the DiscoEvents app with data. 
+
+2.4Operating Environment
+<Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.>
+
+The software will operate on the Android OS. It will be developed for Android verions 4.0 and above. This is because over 90% of android users run the aforementioned OS, allowing us to reach a large amount of android users. The app will require 20 megabytes of storage to be saved and installed on the phone. 
+
+2.5Design and Implementation Constraints
+<Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software).>
+
+Our biggest design and implementation constraint is our inexperience. We have decided to undertake this project in Android Studio and Django to grow our knowledge in the process of creating this app. What this means is that we may not be able to produce the finest or most polished product. However we intend to produce a strong application with all of the requirements specified in this document. 
+2.6User Documentation
+<List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.>
+
+Within the application itself, we will have a help section. The help section will cover the basic uses of the application, how to search, and how to report bugs. Along with it will be a FAQ section, and finally, an email that will be available for users to contact with any further inquiries or help needs that had not veen satiflised with the built in help. 
+
+2.7Assumptions and Dependencies
+<List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).>
+
+
+
+
 4.1 User Interfaces
 The PC app will have a log in/log out button as well as interfaces to post the event, to view the events you've posted, and to edit/delete the events. The Android app will have a menu on the bottom of every page showing home, search by tag, search by organization, and calendar buttons. Home button sends the user back to home page, search by tag lets the user choose which tag to include on the event search results, search by organization lets users to look up events by organization, and calendar shows a calendar that lets people search events by date.
 4.2 Hardware Interfaces
@@ -40,3 +85,8 @@ Planning problems
 We can check if there are any loopholes or exploits on our project plans and if any, we can patch it up.
 If there are any loopholes, exploits, or unforseen problems on the plans, we can adjust the plan to get rid of the problems or we can start a new plan together using the old plan as guideline.
 We will check the plan more throughly so there will be less of a risk of unexpected problems.
+
+Part 5: updated project plan
+for this section, include the same schedule as before as we are still on schedule and aim to continue to use this schedule. The section below can be included
+
+The development schedule for DiscoEvents has been on track so far. We saw no need to make any modifications from the schedule we had used on deliverable 1. Assuming any issue arises, changes to the schedule are still viable. 
