@@ -93,6 +93,48 @@ for this section, include the same schedule as before as we are still on schedul
 
 The development schedule for DiscoEvents has been on track so far. We saw no need to make any modifications from the schedule we had used on deliverable 1. Assuming any issue arises, changes to the schedule are still viable. 
 
+Part 6: 
+
+9/28/17
+Location: class
+
+Present: 
+Brandi Werner
+Kaytlin Lafleur
+Daniel Jimenez
+Tsung-Han Hsieh
+
+Agenda: 
+Deliverable 2 Section 1
+Further Deliverable 3 planning
+
+Deliverable 2 Section 1: based on the templatae provided by our instructor, we reviewed the most in depth section of deliverable two, which is section one. Based upon the roles we felt most comfortable with, we split section one into four parts amongst our members. Brandi completing template part 1, Daniel completing template part 2, Kaytlin completing template part 3, and Tsung-Han completing template part 4. 
+
+Further Deliverable 3 planning: Brandi and Kaytlin put forth their respective ideas on the design and usability aspects of our app. As a group we decided what aspects to implement. One of these is many links between pages. For example from the calendar view you could see an event by IEEE. From there you could click on the event and it will take you to the IEEE organization page. Other details are minisucle design choices. 
+
+
+10/5/17
+Location: class
+
+Present: 
+Brandi Werner
+Kaytlin Lafleur
+Daniel Jimenez
+Tsung-Han Hsieh
+
+Agenda: 
+Deliverable 2 tips from teacher
+Deliverable 2 touch and go
+
+Deliverable 2 tips from teacher: our class lesson today was focused on deliverable 2. 
+Tips we gained are: 
+be precise, clear and unambiguous,
+write readable, complete sentences,
+write in specific words, as opposed to vague.
+
+Deliverable 2 touch and go: as a quick group meeting, we discussed our own progress on the deliverable. By this point we are nearly finished, and have to focus more on minute details as well as document formatting. No group member is behind on their role. 
+
+
 Part 7 Progress report summarizing the status of your project
 The progress of our project is going well. The reason we say this is because we are right on track with the timeline we made on deliverable 1. Just last week we finish researching and studying both android and Django requirements. This upcoming and the following week will get the base and core functionality of our software programed. 
 All our team members have a good grasp on what they need to be working on and the pace they need to get their task done. We have accomplished this through good communication and having meetings twice a week. The Android programmers are working closely together and have broken their task up between themselves. One of the Android developers will be working on the calendar view while the other will focus on the searching aspect of the program including tags. The Django programmers will be working together on all aspects of the web application front. After the next two weeks we will be able to start linking the two development platforms together through SQLlite and start user testing.
