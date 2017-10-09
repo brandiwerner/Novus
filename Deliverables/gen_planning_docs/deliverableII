@@ -2,6 +2,37 @@ Deliverable II
 
 Part 1
 
+1.1 Purpose
+The product being discussed in this SRS is Disco Event App release version 1 as this will be the first release of this software.  This software will have two interfaces, a web interface used by organizations and departments and a android interface used by students. The web interface will have the capability of users creating profiles and events for thier organization while the android interface will allow students to view event on a calendar view or search for specific events through tags. 
+
+1.2 Documentation Convention
+******************<Describe any standards or typographical conventions that were followed when writing this SRS, 
+such as fonts or highlighting that have special significance>*******************************
+In this SRS document every requirement statement has its own priority. 
+
+1.3 Intended Audience and Reading Suggestions
+This document is intended for project managers, team developers, testers, and document writers to read because it will help them in understanding the requirements of the software. The rest of this SRS contains an overal description, the systems' features, external interface requirements, and other requirements. It is suggested to read this document beginning with the overview sections and proceeding through the sections that are most pertinent to each reader.  
+
+1.4 Project Scope
+The system that we are developing will allow Engineering Organizations and UNT Departments to submit their events through a web page. In order to do this the Organizations/Departments will need to create an account on the webpage. By creating an account the organizations/departments will be creating an information page about their group. This information page will include their name, a description of what they do, their contact information, links to their different social medias, and a picture of their choice. After they create an account they will be able to submit an event. The event application asks for the date, details, description, major/s the event covers, and a picture for the event. Once the event is submitted or edited, it will need to get approval by an administrator of the website before it will be posted to the app. 
+The next part of our project is an app that displays the events that the organizations/departments submitted. This app is specifically made for the purpose of tablets being set around Discovery Park that students will be allowed to access and see what events are happening. Students will also be able to download the app onto their personal devices. This app will have all of the events displayed on a calendar view. It will also have a menu where the user can look at the different events by categories. These categories will be the major or department the event is associated with. For example, if the event is a cybersecurity event, it will be under the category of Computer Science. We plan on implementing a search bar where the user can search the for events through key terms. If the app has not been in use for 3 minutes we plan to have it run a slideshow of all of the events.
+The goal of our application is to make it easier for user to find events that are related to their interest and help organizations promote their events. The benifits of this application is that student will easily be able to search for events through thier phones. This will help Engineering students become more active in thier schools and help the turn out rate to organization's events. 
+
+1.5 References
+************************Other people need to put in their references***********************************************
+<List any other documents or Web addresses to which this SRS refers. These may include user interface style guides,
+contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide 
+enough information so that the reader could access a copy of each reference, including title, author, version number,
+date, and source or location.>
+UML Documentation:
+Flores, Jose. “Calendar Application ( Class Diagram (UML)).” Creately, Cinergix Pty. Ltd, 2013, creately.com/diagram/example/hr0vxdcb/Calendar%20Application.
+Used as a reference when creating the Android class diagram.
+
+NikhilRcop. “Sequence Diagram for Android Application That Uses NFC.” Uml - Sequence Diagram for Android Application That Uses NFC - Stack Overflow, 26 Apr. 2015, stackoverflow.com/questions/29882661/sequence-diagram-for-android-application-that-uses-nfc.
+Used as a reference when creating both th Android and Django sequence diagrams. 
+
+To create all of the UML diagrams this SRS used the in class lecture notes as the basis for what each different componet of the diagrams are and how they are used. From this we used the above resources help specify our documents to the development tools we are using. 
+
 2.Overall Description
 2.1Product Perspective
 <Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.>
@@ -52,6 +83,30 @@ The PC version of the app will be using any OS that can run the web browser, it 
 4.4 Communication interfaces
 This app will use the communication functions of a web browser, and we wil use HTTP for this app on the PC side. 
 
+5.1Performance Requirements
+Performance requirement when pulling data for calandar:
+The calandar view will be the resting view of this application. This means that when this view first appears it will need to pull data from the database about the events happening in the current month that it is. When the month is switch by the user, the calandar will need to display the selected months' data. This means that the software will need to be able to pull from the database qickly and retreive the right information.
+
+Performance requirement when pulling data for event or organization information view:
+The event and organization view will only need information to be pulled from the database one time. This information will need to be pulled in real time when the user asks for it. 
+
+Performance requirement when tags are selected
+When the user selects tags to help their searching process the system will need to search for events or organizations that fit these tags and switch views. The new view will either display a list of the different events and organizations that contain any of those tags or will dispay an error message. The database will need to look through all of the tags to return the events and organizations that fit the tags in real time. 
+
+5.2 Safety Requirements
+Misinformation Requirements
+The only harm that can come with using this application is misinformation. If misinformation is found then the event or organization will be set as inactive on the database and thus will not show up on the android app. After this an email will be sent out to the creators of this event. To safegaurd from this we will need to set up an administrator access to the website. The administrators of the website will be able to review the events before they are set to activin in the database. There are no external policies or regulations that state safety issues that affect the product’s design or use or any safety certifications that must be satisfied.
+
+5.3Security Requirements
+Database Security Requirements
+The safty protacal we will need to take with this product are for the database. We will need to make secure our database from hackers. This includes making sure the queres into the database do not leave any openings for hackers to change, input, or drop data.
+
+User Identity Authentication
+The web system will have a log in screen where the users will have to enter their log in information in order to access their information or create a new event. This information will be stored in the database and incripted. If the log in information matches what is in the database then the user is allowed to log in. 
+
+5.4Software Quality Attributes
+Some important quality characteristics for the product are correctness, maintainability, and usability. Correctness of the product is important because it if the information on our application is consistently wrong users will stop relying on our application. The correctness of our application should be that 85% of the information on our app is correct and 100% of the data pull from the database is the correct data. The software needs to be maintainable for the administrators so that the events are up to date and new events are added to the adroid app within 48 hours of the information being put into our database. The usability of our apps must be easy in the sense that the user must have an easy time travering through the apps. Our applications should allow the user to find any peice of data within 5 clicks. 
+
 Part 2 UML Documents
 Class Diagram
 Sequence Diagram
@@ -97,4 +152,3 @@ Part 7 Progress report summarizing the status of your project
 The progress of our project is going well. The reason we say this is because we are right on track with the timeline we made on deliverable 1. Just last week we finish researching and studying both android and Django requirements. This upcoming and the following week will get the base and core functionality of our software programed. 
 All our team members have a good grasp on what they need to be working on and the pace they need to get their task done. We have accomplished this through good communication and having meetings twice a week. The Android programmers are working closely together and have broken their task up between themselves. One of the Android developers will be working on the calendar view while the other will focus on the searching aspect of the program including tags. The Django programmers will be working together on all aspects of the web application front. After the next two weeks we will be able to start linking the two development platforms together through SQLlite and start user testing.
 At this point in time we are all feeling comfortable with the pace we have given ourselves and feel that we will be able to accomplish this program in a reasonable amount of time. The only struggle that we might have in the future is if one of our development tools has a limitation that our developers cannot overcome or solve. If this happens we have already discussed about different alternatives of what to do and how to solve these problems. One of the last resorts is to change development tools.
-
