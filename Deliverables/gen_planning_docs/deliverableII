@@ -113,9 +113,26 @@ Sequence Diagram
 Use Case Diagram (at least on normal case and one error case)
 
 Part 3 Test plan
-Test account creation, and then creating events on the PC
-Then we will check if there's new events on the mobile side to check if the initial thing works
-Then we'll create another account and submit another event there, and check if the accounts are updated and are not the same as the first one
+Test case 1: PC account registration
+Incorrect input: Missing fields or fields are already in database
+Pass criteria: Throws an error showing which of required fields are missing or are duplicates of already existing acount
+Correct input: Filled fields and no fields are the same as the ones in the database as duplicates
+Pass criteria: The new account's info should be created in the database
+
+Test case 2: PC login
+Incorrect input: Missing or mismatched username/password
+Pass criteria: It should give out an error saying that the username/password does not match the ones in database
+Correct input: Filled required field with matching username/password
+Pass criteria: It should successfully login the account
+
+Test case 3: Event creation
+Incorrect input: Missing fields
+Pass criteria: Throws an error showing which of required fields are missing
+Correct input: Filled fields
+Pass criteria: The new event's info should be created in the database
+
+Test case 4: Event viewing
+Pass criteria: The event should show up on the android app after event is published from the PC
 
 Part 4 Updated risk management
 Lack of experience with Android/Django
