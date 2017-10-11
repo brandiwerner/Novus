@@ -81,6 +81,135 @@ Within the webapp, we will also have a help section. The help section will cover
 2.7Assumptions and Dependencies
 <List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).>
 
+3 | System Features
+
+3.1 |Android App Features
+
+3.1.1 | Home Screen
+3.1.1.1 Description and Priority
+The home screen will have slideshow of upcoming events and will have the navigation bar along the bottom. The home page is high priority because it is the first page a user will see.	
+3.1.1.2 Stimulus/Response Sequences
+If the user clicks the slides the app will link to the event shown. If the user clicks one of the options on the navigation bar it will bring them to one of the four following places:
+•	Search: the search button sends users to the search page
+•	Organizations: the organizations button sends user to the list of organizations
+•	Calendar: the calendar button sends user to the calendar page 
+3.1.1.3 Functional Requirements
+The functional capabilities for the Home Page consist of linking the navigation bar buttons to their proper pages and creating a link (query) to the database to display the 10 next upcoming events in the slideshow and linking each one to its respective Event View. 
+3.1.2 | Calendar
+3.1.2.1 Description and Priority
+The Calendar view will show a calendar for that month, with navigation to future months, and when you click on a day it will bring you to the events for that day. This feature is medium to high priority. The app could be created without it but will help with ease of navigation. 
+3.1.2.2 Stimulus/Response Sequences
+If the user clicks the month navigation the corresponding month will show on the page. If the user clicks on a single day the app will move to the list of events that date. If the user clicks one of the options on the navigation bar it will bring them to one of the four following places:
+•	Home screen: the home button returns the user to the home screen
+•	Search: the search button sends users to the search page
+•	Organizations: the organizations button sends user to the list of organizations
+3.1.2.3 Functional Requirements
+The functional capabilities for the Calendar consist of linking the navigation bar buttons to their proper pages and showing an interactive calendar where each day is linked to a page with the events for that day. Also there will be a navigation button to move between different months. 
+
+3.1.3 | Events of the Day
+3.1.3.1 Description and Priority
+The events of the Day page is a simple list with the results of a query from a specific day. The priority of this is medium, and can be created later in the process.	
+3.1.3.2 Stimulus/Response Sequences
+If the user clicks on a result it will link them to an event page. If the user clicks one of the options on the navigation bar it will bring them to one of the four following places:
+•	Home screen: the home button returns the user to the home screen
+•	Search: the search button sends users to the search page
+•	Organizations: the organizations button sends user to the list of organizations
+•	Calendar: the calendar button sends user to the calendar page 
+3.1.3.3 Functional Requirements
+The functional capabilities for the Events of the Day consist of linking the navigation bar buttons to their proper pages and creating a link (query) to the database to display the events on that day and link the results to their respective Event Page. 
+
+3.1.4 | Organization List
+3.1.4.1 Description and Priority
+The Organization List will have a list of all of the organizations that have events submitted. This is low priority and could be left out without affecting the overall ability of the application.	
+3.1.4.2 Stimulus/Response Sequences
+If the user clicks one of the organizations it will link it to the organizations profile page. If the user clicks one of the options on the navigation bar it will bring them to one of the four following places:
+•	Home screen: the home button returns the user to the home screen
+•	Search: the search button sends users to the search page
+•	Calendar: the calendar button sends user to the calendar page 
+3.1.4.3 Functional Requirements
+The functional capabilities for the Organizations List consist of linking the navigation bar buttons to their proper pages and creating a link (query) to the database to display all the organizations that have events and linking each organizations to its respective Organization Profiles. 
+
+3.1.5 | Organization Profile
+3.1.5.1 Description and Priority
+The Organization Profile will show an organizations details, including, name, contacts, department relation, and the organizations currently listed events. This is medium priority because it can be linked too from two separate places.	
+3.1.5.2 Stimulus/Response Sequences
+If the user clicks on one of the organizations listed events it will go to the event’s page. If the user clicks one of the options on the navigation bar it will bring them to one of the four following places:
+•	Home screen: the home button returns the user to the home screen
+•	Search: the search button sends users to the search page
+•	Organizations: the organizations button sends user to the list of organizations
+•	Calendar: the calendar button sends user to the calendar page 
+3.1.5.3 Functional Requirements
+The functional capabilities for the Organization profile consist of linking the navigation bar buttons to their proper pages and creating a link (query) to the database to display the organizations information, and there needs to be links from the list of the organizations events to the respective events pages. 
+
+3.1.6 | Search Page
+3.1.6.1 Description and Priority
+The search page will have pull down menus that the user will use to narrow down the search for events. This feature is high priority.	
+3.1.6.2 Stimulus/Response Sequences
+The user will interact with several pull down menus, which include date, organization, department, tags, and event type. If the user clicks the search button the user will be navigated to a list of events. If the user clicks one of the options on the navigation bar it will bring them to one of the four following places:
+•	Home screen: the home button returns the user to the home screen
+•	Organizations: the organizations button sends user to the list of organizations
+•	Calendar: the calendar button sends user to the calendar page 
+3.1.6.3 Functional Requirements
+The functional capabilities for the Search Page consist of linking the navigation bar buttons to their proper pages and creating a form for the user to fill out to narrow down a search of events. The “search” button on the page will call the query from the database and link to the Search Result page.
+
+3.1.7 | Search Results
+3.1.7.1 Description and Priority
+The Search Result page will show the results of a search, and have links to Event View pages.	
+3.1.7.2 Stimulus/Response Sequences
+If the user clicks the event link it will take the user to the Event View page for the specific event. If the user clicks one of the options on the navigation bar it will bring them to one of the four following places:
+•	Home screen: the home button returns the user to the home screen
+•	Search: the search button sends users to the search page
+•	Organizations: the organizations button sends user to the list of organizations
+•	Calendar: the calendar button sends user to the calendar page 
+3.1.7.3 Functional Requirements
+The functional capabilities for the Search Page consist of linking the navigation bar buttons to their proper pages and each search result needs to be linked to their respective Event Page. 
+
+3.1.7 | Event View
+3.1.1.1 Description and Priority
+The Event View shows all the details for a specific event. This has high priority because the goal of our app is to show events to the users.	
+3.1.1.2 Stimulus/Response Sequences
+If the user clicks the organization that is holding the event they will be sent to the Organization Page. If the user clicks one of the options on the navigation bar it will bring them to one of the four following places:
+•	Home screen: the home button returns the user to the home screen
+•	Search: the search button sends users to the search page
+•	Organizations: the organizations button sends user to the list of organizations
+•	Calendar: the calendar button sends user to the calendar page 
+3.1.1.3 Functional Requirements
+The functional capabilities for the Event View consist of linking the navigation bar buttons to their proper pages and showing the information of the event from the database, and linking the organization to the Organization View.
+ 
+3.2 | Django Web-based Application
+
+3.2.1 | Login Page
+3.2.1.1 Description and Priority
+The login will allow organization users to access the Django application using their account. This is high priority so that organizations have their own private accounts. 
+3.2.1.2 Stimulus/Response Sequences
+If the user is signing in to an account they will input their email and password. If the user is new they will click the new account button
+3.2.1.3 Functional Requirements
+The page will need to connect to the database to confirm the entered information after the user clicks Login and link to the Organization Information Page, and the “new user” button will need to link to the New User Sign-up page.  
+
+3.2.2 | New User Sign-up
+3.2.2.1 Description and Priority
+The New User Sign-up page will be where a club user can register for an account. This is high priority because there needs to be users to input events. 
+3.2.2.2 Stimulus/Response Sequences
+The users will input the data to create their account, and click a button to create account and bring them to the Organization Information Page
+3.2.2.3 Functional Requirements
+The page needs to collect input, and then link to the Organization Information Page. This information will have to be saved to the database
+3.2.3 | Organization Information Page
+3.2.3.1 Description and Priority
+This page will hold all the information associated with the logged in account. The information can be edited as well. This is a high priority feature.
+3.2.3.2 Stimulus/Response Sequences
+The data should be able to be edited by the user, and then a save button should send new data to the database. The user should be able to see a list of previously created events, they should be able to click on a previous event to link to the Event view to edit it, or they can create a new event.
+3.2.3.3 Functional Requirements
+Access to the database to show saved information, and ability to edit the database when info is changed. There should also be links from previously created events to the event page.
+
+3.2.4 | Create/Edit an Event
+3.2.4.1 Description and Priority
+This page will be used to create a new event or edit a previously created event. This is a high priority because the app requires events to display.
+3.2.4.2 Stimulus/Response Sequences
+The users should be able to input data and edit data shown if the event was previously created. There should be a save button to update information in the database.
+3.2.4.3 Functional Requirements
+There needs to be access to the database to update information, and a link back to the Organizations Information Page.
+
+
 4.1 User Interfaces
 The PC app will have a log in/log out button as well as interfaces to post the event, to view the events you've posted, and to edit/delete the events. The Android app will have a menu on the bottom of every page showing home, search by tag, search by organization, and calendar buttons. Home button sends the user back to home page, search by tag lets the user choose which tag to include on the event search results, search by organization lets users to look up events by organization, and calendar shows a calendar that lets people search events by date.
 4.2 Hardware Interfaces
