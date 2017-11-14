@@ -9,4 +9,3 @@ README for the Site_Code
 * Site at localhost:3000
 * Initilize with $rails s 
 * When finished close server with $rails restart
-

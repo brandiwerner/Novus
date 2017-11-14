@@ -1,0 +1,15 @@
+
+
+
+<h2>Event List</h2>
+<% @events.each do |event| %>
+	<div class="well">
+		<h3><%=event.title %></h3>
+		<!--<h4><%=event.date%></h4>
+		<h4><%=event.time%></h4>
+		<h4><%=event.location%></h4>
+		<p><%=event.body%></p> -->
+		<%= link_to "Info", event_path(event), :class => 'btn btn-default' %> 
+		<!-- you changed the event_path, might need to change it back--> 
+	</div>	
+<%end%>
