@@ -1,0 +1,12 @@
+a)[user manual here, screenshots where appropiate]
+b)[instructions here on how to compile and run tests]
+c)[test cases here, discuss about experiences about testing]
+d)(Note: correct me if I'm wrong)The features that we have successfully implemented are that we are able to create an account on
+the website, sign in on the website and post events, send events to database, and have the android app to show the events from the
+database. [future plans here]
+e)[meeting minutes here]
+f)Note: format this in a table when turning this into word document, and correct if wrong(the 25% on contribution is placeholder)
+Brandi		Android code, instructions, future plans		25%
+Kaytlin		Website code, user manual, instructions, future plans	25%
+Daniel		Android code, user manual, test cases, meeting minutes	25%
+Tsung-Han	Android code, features, contribution table		25%
