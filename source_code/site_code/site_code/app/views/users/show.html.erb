@@ -1,0 +1,19 @@
+<% provide(:title, @user.organization) %>
+<div class="row">
+	<aside class= "col-md-4">
+		<section class="user_info">
+			<h1>
+  				<%= gravatar_for @user %>
+  				<%= @user.organization %>
+			</h1>
+		</section>
+	</aside>
+			
+<body>
+	
+	<br><br>
+<%= link_to "Events", index_path, :class => 'btn btn-default' %>
+<%= link_to "New Event", new_event_path, :class => 'btn btn-default' %>
+</body>
+
+</div>

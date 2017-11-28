@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DiscoEvents</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    params["controller"], media: 'screen' %>
+    <%= stylesheet_link_tag    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-md navbar-inverse fixed-top" style = "background-color:#045948">
+  <div class="container">
+    <a class= "navbar-brand" href="#">DiscoEvents</a>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home", home_path %></li>
+        <% if logged_in? %>
+          <li><%= link_to "Events", index_path %></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Account <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to "Profile", current_user %></li>
+              <li><%= link_to "Settings", edit_user_path(current_user) %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to "Log out", logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to "Log in", login_path %></li>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</nav>
+
+<div class="container">
+      <% flash.each do |message_type, message| %>
+        <div class="alert alert-<%= message_type %>"><%= message %></div>
+      <% end %>
+
+    <%= yield %>
+ <!--   <%= debug(params) if Rails.env.development? %>-->
+</div>
+
+  </body>
+
+</html>
