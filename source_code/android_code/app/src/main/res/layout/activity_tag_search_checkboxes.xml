@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.brandi.discoevents.tagSearchCheckboxes">
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight=".3"
+        android:text="Each of the events have tags. Find which events you might be interested though checking the tags!"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_with_shadow">
+
+        <LinearLayout
+            android:id="@+id/linearCheckLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@color/lightBackground"
+            android:backgroundTint="@color/lightBackground"
+            android:orientation="vertical"
+            android:weightSum=".6">
+
+            <CheckBox
+                android:id="@+id/checkCS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="onCheckboxClicked"
+                android:text="Computer Science"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxCE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="onCheckboxClicked"
+                android:text="Computer Engineering"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxEE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="onCheckboxClicked"
+                android:text="Electrical Engineering"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxDept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="onCheckboxClicked"
+                android:text="Department Events"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textPromtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight=".3"
+        android:text="Click the button below to search for the events with the tags you have selected."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonTagSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_weight=".2"
+        android:onClick="goTagEventList"
+        android:text="Search" />
+
+    <LinearLayout
+        android:id="@+id/LinearBottomContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight=".3"
+        android:background="@color/lightBackground"
+        android:backgroundTint="@color/lightBackground"
+        android:orientation="vertical">
+
+        <!-- <TextView
+            android:id="@+id/eventLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/lightBackground"
+            android:scrollbars="vertical"
+            android:text="Hello baby" /> -->
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:background="?android:attr/windowBackground"
+            android:backgroundTint="@color/lightBackground"
+            app:menu="@menu/navigation" />
+       </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "959077893367",
+    "firebase_url": "https://introtofirebase-af33c.firebaseio.com",
+    "project_id": "introtofirebase-af33c",
+    "storage_bucket": "introtofirebase-af33c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959077893367:android:a3157a9839cc1376",
+        "android_client_info": {
+          "package_name": "com.brandi.introtofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959077893367-rkta4l43vlleenm0vheqkipea9rlp5tm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brandi.introtofirebase",
+            "certificate_hash": "8371195c7f4b059ea8b8727162f07812f9f321bd"
+          }
+        },
+        {
+          "client_id": "959077893367-60v6ojgjpr045l5f4f2gatbd05gh61ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApyLF7Ga-x_Yvv0K2O5yTzBrFqVawbn1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959077893367-60v6ojgjpr045l5f4f2gatbd05gh61ea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959077893367:android:a09fde957818137d",
+        "android_client_info": {
+          "package_name": "com.brandi.introtofirebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959077893367-uputl4ntl4i5tfn4c864jfhsncc1vakk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brandi.introtofirebase2",
+            "certificate_hash": "8371195c7f4b059ea8b8727162f07812f9f321bd"
+          }
+        },
+        {
+          "client_id": "959077893367-60v6ojgjpr045l5f4f2gatbd05gh61ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApyLF7Ga-x_Yvv0K2O5yTzBrFqVawbn1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959077893367-60v6ojgjpr045l5f4f2gatbd05gh61ea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959077893367:android:3ed1f8a3e7d8f605",
+        "android_client_info": {
+          "package_name": "com.brandi.discoevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959077893367-0nan43l1g0itp15a7rp055l2vlapsqni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brandi.discoevents",
+            "certificate_hash": "8371195c7f4b059ea8b8727162f07812f9f321bd"
+          }
+        },
+        {
+          "client_id": "959077893367-60v6ojgjpr045l5f4f2gatbd05gh61ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApyLF7Ga-x_Yvv0K2O5yTzBrFqVawbn1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959077893367-60v6ojgjpr045l5f4f2gatbd05gh61ea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
