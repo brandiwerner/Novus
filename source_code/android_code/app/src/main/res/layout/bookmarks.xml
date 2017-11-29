@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearBookmarkedEHeader"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="wrap_content"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.25"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textBookmarkedEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Bookmarked Events:"
+            android:textSize="25sp" />
+
+        <ListView
+            android:id="@+id/ListBookmarkedEvents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearBottomContentBookmark"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/lightBackground"
+        android:backgroundTint="@color/lightBackground"
+        android:orientation="vertical">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:background="?android:attr/windowBackground"
+            android:backgroundTint="@color/lightBackground"
+            app:menu="@menu/navigation" />
+    </LinearLayout>
+
+</LinearLayout>
