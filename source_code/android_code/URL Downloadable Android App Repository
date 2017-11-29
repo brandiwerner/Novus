@@ -1,0 +1,6 @@
+https://github.com/DanielJimenez97/DiscoEvents.final
+
+Above is a link to a repository holding the android portion 
+of this application. The reason we have it in a different 
+repository is because Android Studio has a hard time downloading an 
+app from a nested directory on git.
